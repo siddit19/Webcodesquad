@@ -1,5 +1,3 @@
-# livethecode-project
-# livethecode-project
 # Team Name- WebCodeSQUAD
 <br>
 <h2>Team members</h2>
