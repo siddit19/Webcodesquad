@@ -1,0 +1,307 @@
+:root {
+    --main-bg-color: #ffa500;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.whole {
+    background-image: url("quot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+header {
+    background: var(--main-bg-color);
+}
+
+nav {
+    display: flex;
+    position: relative;
+    background-color: #ffa500;
+    width: 100vw;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 5vw;
+    font-size: 35px;
+
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+.quote {
+
+
+    width: 95vw;
+
+    overflow: hidden;
+    height: 300px;
+}
+
+#slogan {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-top: 10vw;
+}
+
+.head2 {
+    color: white;
+
+    font-size: 40px;
+    text-align: center;
+    margin-top: 2vw;
+
+}
+
+div.gallery {
+    margin-left: 8px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 30vw;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 30vw;
+    height: 20vw;
+}
+
+div.desc {
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+div.topright {
+    margin-left: 8px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 34.75vw;
+}
+
+div.topright:hover {
+    border: 1px solid #777;
+}
+
+div.topright img {
+    width: 34.75vw;
+    height: 20vw;
+}
+
+div.descr {
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+main a:link,
+main a:visited {
+    background-color: blue;
+    color: white;
+    padding: 14px, 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+main a:hover,
+main a:active {
+    background-color: blue;
+}
+
+div.big {
+    margin-left: 8px;
+    margin-right: 5px;
+    margin-top: 25px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 30vw;
+}
+
+div.big:hover {
+    border: 1px solid #777;
+}
+
+div.big img {
+    width: 30vw;
+    height: 42vw;
+}
+
+div.describe {
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+
+div.bigM {
+    margin-left: 8px;
+    margin-right: 5px;
+    margin-top: 25px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 40vw;
+}
+
+div.bigM:hover {
+    border: 1px solid #777;
+}
+
+div.bigM img {
+    width: 40vw;
+    height: 42vw;
+}
+
+div.describing {
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+
+div.bigSide {
+    margin-left: 8px;
+    margin-right: 5px;
+    margin-top: 25px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 25vw;
+}
+
+div.bigSide:hover {
+    border: 1px solid #777;
+}
+
+div.bigSide img {
+    width: 25vw;
+    height: 42vw;
+}
+
+div.describingS {
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+div.bigbottom {
+    margin-left: 8px;
+    margin-right: 5px;
+    margin-top: 25px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 51vw;
+}
+
+div.bigbottom:hover {
+    border: 1px solid #777;
+}
+
+div.bigbottom img {
+    width: 51vw;
+    height: 32vw;
+}
+
+div.describingb {
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+
+div.bottomR {
+    margin-left: 8px;
+    margin-right: 5px;
+    margin-top: 25px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 45vw;
+}
+
+div.bottomR:hover {
+    border: 1px solid #777;
+}
+
+div.bottomR img {
+    width: 45vw;
+    height: 32vw;
+}
+
+div.describingbr {
+    color: white;
+    padding: 5.8px;
+    text-align: center;
+}
+
+.emptyspace{
+    width:94vw;
+    height:25px;
+    margin-top: 20px;
+
+}
+
+.endbox {
+    width: 100vw;
+    
+
+    border: 2px;
+    margin-left: 8px;
+    background-color:orange;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 13vh;
+    justify-content: flex-start;
+    margin: 0px;
+    margin-top: 12px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+#symbol{
+    height:55px;
+    margin-left: 15vw;
+    margin-top: 20px;
+    margin-bottom:20px ;
+}
